@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Aditi | Science Student & AI/ML Enthusiast</title>
-  <meta name="description" content="Portfolio of Aditi — 12th Grade Science Student & Aspiring AI/ML Engineer" />
+  <title>Aditi CS Enthusiast</title>
+  <meta name="description" content="Portfolio of Aditi — Intern @Scaler YIIC 7.0 | Upcoming CS Undergrad" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
@@ -59,7 +59,18 @@
     .hero-badge { display: inline-flex; align-items: center; gap: 8px; padding: 6px 18px; background: rgba(99,179,237,0.1); border: 1px solid rgba(99,179,237,0.25); border-radius: 999px; font-size: 0.78rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--blue-300); margin-bottom: 28px; }
     .hero-badge::before { content: ''; width: 7px; height: 7px; background: #10b981; border-radius: 50%; animation: pulse 2s infinite; }
     @keyframes pulse { 0%,100% { opacity:1; transform:scale(1); box-shadow:0 0 0 0 rgba(16,185,129,.4); } 50% { opacity:.7; transform:scale(1.1); box-shadow:0 0 0 5px rgba(16,185,129,0); } }
-    .hero-name { font-size: clamp(3rem, 8vw, 5.5rem); font-weight: 900; letter-spacing: -0.04em; line-height: 1; margin-bottom: 18px; background: linear-gradient(135deg, #ffffff 0%, var(--blue-100) 50%, var(--indigo) 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+    .hero-name {
+  font-size: clamp(2rem, 6vw, 2.7rem); 
+  font-weight: 800; 
+  letter-spacing: -0.02em; 
+  line-height: 1.1;
+  margin-bottom: 20px;
+      
+  background: linear-gradient(135deg, #ffffff 0%, var(--blue-100) 50%, var(--indigo) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
     .hero-subtitle { font-size: clamp(1rem, 2.5vw, 1.3rem); color: var(--text-2); font-weight: 500; margin-bottom: 36px; line-height: 1.5; }
     .hero-subtitle .highlight { color: var(--accent); font-weight: 700; }
     .hero-cta { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
@@ -89,7 +100,7 @@
     .fact-chip strong { color: var(--white); }
     .about-text h2 { font-size: 1.8rem; font-weight: 800; color: var(--white); margin-bottom: 20px; letter-spacing: -0.02em; }
     .about-text p { color: var(--text-2); line-height: 1.85; margin-bottom: 16px; font-size: 0.95rem; }
-    .about-interests { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 24px; }
+    .about-interests {display: flex; flex-wrap: wrap; gap: 10px; margin-top: 24px; justify-content: center;
     .interest-tag { display: inline-flex; align-items: center; gap: 7px; padding: 7px 16px; background: rgba(99,179,237,0.08); border: 1px solid rgba(99,179,237,0.2); border-radius: 999px; font-size: 0.82rem; font-weight: 600; color: var(--blue-300); transition: all var(--transition); }
     .interest-tag:hover { background: rgba(99,179,237,0.15); transform: translateY(-1px); }
     #skills { background: var(--bg); }
@@ -104,7 +115,7 @@
     .skill-bar-pct { font-size: 0.78rem; font-weight: 700; color: var(--accent); font-family: 'JetBrains Mono', monospace; }
     .skill-bar-track { height: 5px; background: var(--surface); border-radius: 999px; overflow: hidden; border: 1px solid var(--border); }
     .skill-bar-fill { height: 100%; border-radius: 999px; background: linear-gradient(90deg, var(--blue-400), var(--indigo)); width: 0; transition: width 1.4s cubic-bezier(.4,0,.2,1); }
-    #projects { background: var(--bg-3); }
+    #projects { padding: 80px 0;background: var(--bg-3); }
     .projects-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; }
     .project-card { background: var(--glass); border: 1px solid var(--glass-border); border-radius: var(--radius); overflow: hidden; backdrop-filter: blur(20px); transition: all var(--transition); display: flex; flex-direction: column; }
     .project-card:hover { transform: translateY(-6px); border-color: var(--border-glow); box-shadow: 0 20px 40px rgba(0,0,0,0.4), inset 0 1px 0 rgba(255,255,255,0.08); }
@@ -190,11 +201,11 @@
   </div>
   <section id="hero">
     <div class="container hero-content">
-      <div class="hero-badge reveal">12th Grade Science · YIIC 2025</div>
+      <div class="hero-badge reveal">Intern @Scaler YIIC 7.0 2026 </div>
       <h1 class="hero-name reveal">Hi, I'm Aditi</h1>
       <p class="hero-subtitle reveal">
-        <span class="highlight">Aspiring AI/ML Engineer</span> &amp; Science Student<br />
-        Building logic, one algorithm at a time.
+        <span class="highlight">Upcoming CS Undergrad</span> &amp; I’m deeply passionate about Computer Science and love exploring new technologies and innovative ideas.<br />
+        
       </p>
       <div class="hero-cta reveal">
         <a href="#projects" class="btn btn-primary"><i class="fa-solid fa-rocket"></i> View My Work</a>
@@ -207,26 +218,24 @@
     <div class="container">
       <div class="section-header reveal">
         <span class="section-tag">about me</span>
-        <h2 class="section-title">The Person Behind the Code</h2>
+        <h2 class="section-title">Background & Vision</h2>
         <div class="divider"></div>
       </div>
       <div class="about-grid">
         <div class="about-visual reveal">
-          <div class="about-avatar">🧬</div>
+          <div class="about-avatar">💻</div>
           <div class="fact-chip"><i class="fa-solid fa-flask-vial"></i><span><strong>PCM Stream</strong> — Physics, Chemistry &amp; Maths</span></div>
-          <div class="fact-chip"><i class="fa-solid fa-brain"></i><span><strong>JEE Prep</strong> — Strengthening logical &amp; analytical thinking</span></div>
+          <div class="fact-chip"><i class="fa-solid fa-c"></i><span><strong>Learning C</strong> — Strengthening logical &amp; analytical thinking</span></div>
           <div class="fact-chip"><i class="fa-brands fa-python"></i><span><strong>Python Developer</strong> — Building real-world logic solutions</span></div>
         </div>
         <div class="about-text reveal">
-          <h2>STEM student with a passion for intelligent systems</h2>
-          <p>I'm Aditi, a 12th-grade science student deeply interested in Artificial Intelligence, Machine Learning, and computational problem-solving. My journey into coding started with Python, where I discovered how logic and creativity intersect beautifully.</p>
-          <p>Alongside my JEE preparation, I've been building projects that reflect real-world problem solving — from banking simulations to algorithmic challenges like Pascal's Triangle and Dictionary Ranking. Every problem is a puzzle waiting to be cracked.</p>
+          <h2>Always Learning, Always Building</h2>
+          <p>I'm Aditi, a 18 year student deeply interested in Computer Science and computational problem-solving. My journey into coding started since my 11th grade, Stepping in I discovered how logic and creativity intersect beautifully.</p>
+          <p>I've been building projects that reflect real-world problem solving — from banking simulations to algorithmic challenges like Pascal's Triangle, Rock Paper Scissors and Number Guessing Game Every problem is a puzzle waiting to be cracked.</p>
           <div class="about-interests">
-            <span class="interest-tag"><i class="fa-solid fa-robot"></i> AI / ML</span>
-            <span class="interest-tag"><i class="fa-solid fa-atom"></i> Physics</span>
             <span class="interest-tag"><i class="fa-solid fa-code"></i> Algorithms</span>
             <span class="interest-tag"><i class="fa-solid fa-lightbulb"></i> Problem Solving</span>
-            <span class="interest-tag"><i class="fa-solid fa-infinity"></i> Mathematics</span>
+            
           </div>
         </div>
       </div>
@@ -237,25 +246,18 @@
       <div class="section-header reveal">
         <span class="section-tag">skills</span>
         <h2 class="section-title">Skills &amp; Technologies</h2>
-        <p class="section-subtitle">My core toolkit for building intelligent, logical solutions.</p>
+        <p class="section-subtitle">Turning complex problems into simple, working code.</p>
         <div class="divider"></div>
       </div>
       <div class="skills-cloud reveal">
         <div class="skill-badge large"><i class="fa-brands fa-python" style="color:#3b82f6"></i> Python</div>
         <div class="skill-badge large"><i class="fa-solid fa-c" style="color:#818cf8"></i> C++</div>
         <div class="skill-badge large"><i class="fa-solid fa-sitemap" style="color:#a78bfa"></i> Logic &amp; Algorithms</div>
-        <div class="skill-badge large"><i class="fa-solid fa-infinity" style="color:#38bdf8"></i> Calculus</div>
+
         <div class="skill-badge large"><i class="fa-solid fa-table" style="color:#10b981"></i> Data Handling</div>
         <div class="skill-badge"><i class="fa-solid fa-terminal" style="color:#f59e0b"></i> CLI</div>
-        <div class="skill-badge"><i class="fa-solid fa-network-wired" style="color:#ec4899"></i> Loops &amp; Recursion</div>
         <div class="skill-badge"><i class="fa-brands fa-git-alt" style="color:#f05032"></i> Git</div>
-      </div>
-      <div class="skills-bars reveal">
-        <div class="skill-bar-item"><div class="skill-bar-header"><span class="skill-bar-name">🐍 Python</span><span class="skill-bar-pct">88%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="88"></div></div></div>
-        <div class="skill-bar-item"><div class="skill-bar-header"><span class="skill-bar-name">🔢 Algorithms &amp; Logic</span><span class="skill-bar-pct">85%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="85"></div></div></div>
-        <div class="skill-bar-item"><div class="skill-bar-header"><span class="skill-bar-name">📐 Mathematics / Calculus</span><span class="skill-bar-pct">90%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="90"></div></div></div>
-        <div class="skill-bar-item"><div class="skill-bar-header"><span class="skill-bar-name">💾 C++</span><span class="skill-bar-pct">72%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="72"></div></div></div>
-        <div class="skill-bar-item"><div class="skill-bar-header"><span class="skill-bar-name">📊 Data Handling</span><span class="skill-bar-pct">78%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="78"></div></div></div>
+        <div class="skill-badge"><i class="fa-brands fa-github" style="color:#ffffff"></i> GitHub</div>
       </div>
     </div>
   </section>
